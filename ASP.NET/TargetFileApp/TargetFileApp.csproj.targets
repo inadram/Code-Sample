@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+   <TestBase Include="Test\*.*" Exclude="Test\*.etc" />
+  </ItemGroup>
+  <Target Name="CopyPackageContent">
+  <Copy SourceFiles="@(TestBase)" DestinationFiles="@(TestBase-&gt;'$(OutDir)%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Warning Text="Content copied from package TestBase.Base to the output folder. Cleaning the project/solution will not delete these files." />
+    </Target>
+</Project>

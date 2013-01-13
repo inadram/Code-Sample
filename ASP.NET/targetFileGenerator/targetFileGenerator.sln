@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "targetFileGenerator", "targetFileGenerator\targetFileGenerator.csproj", "{BC41AB49-BA28-4E47-8889-7D4DCF5174DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC41AB49-BA28-4E47-8889-7D4DCF5174DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC41AB49-BA28-4E47-8889-7D4DCF5174DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC41AB49-BA28-4E47-8889-7D4DCF5174DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC41AB49-BA28-4E47-8889-7D4DCF5174DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

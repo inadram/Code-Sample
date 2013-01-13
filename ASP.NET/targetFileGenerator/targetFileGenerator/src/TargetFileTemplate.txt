@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ProjectBase Include="TempTargetPackageFolderForGeneratingTargetFile/**/*.*" Exclude="ExcFile" />
+    </ItemGroup>
+  <Target Name="CopyPackageContent">
+    <Copy SourceFiles="@(ProjectBase)" DestinationFiles="@(ProjectBase-&gt;'$(OutDir)%(RecursiveDir)%(Filename)%(Extension)')" />
+    <Warning Text="Content copied from package ProjectBase to the output folder. Cleaning the project/solution will not delete these files. THIS IS AN INTERRIM SOLUTION; RELIANCE ON THESE FILES SHOULD BE REMOVED" />
+   </Target>
+</Project>
