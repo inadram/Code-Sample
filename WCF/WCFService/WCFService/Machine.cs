@@ -3,7 +3,7 @@
 namespace WCFService
 {
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single,ConcurrencyMode = ConcurrencyMode.Multiple) ]
-    class Machine:IMachine
+    public class Machine:IMachine
     {
         public void Add(MachineDTO machineDTO)
         {

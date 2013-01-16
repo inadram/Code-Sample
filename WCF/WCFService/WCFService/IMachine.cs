@@ -3,7 +3,7 @@
 namespace WCFService
 {
     [ServiceContract]
-    interface IMachine
+    public interface IMachine
     {
         [OperationContract(IsOneWay = true)]
         void Add(MachineDTO machineDTO);
