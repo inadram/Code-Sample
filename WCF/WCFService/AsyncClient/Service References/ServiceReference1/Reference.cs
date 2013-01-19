@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Client.Imachine {
+namespace AsyncClient.ServiceReference1 {
     using System.Runtime.Serialization;
     using System;
     
@@ -75,28 +75,28 @@ namespace Client.Imachine {
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Imachine.IMachine")]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName="ServiceReference1.IMachine")]
     public interface IMachine {
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, Action="http://tempuri.org/IMachine/Add")]
-        void Add(Client.Imachine.MachineDTO machineDTO);
+        void Add(AsyncClient.ServiceReference1.MachineDTO machineDTO);
         
         [System.ServiceModel.OperationContractAttribute(IsOneWay=true, AsyncPattern=true, Action="http://tempuri.org/IMachine/Add")]
-        System.IAsyncResult BeginAdd(Client.Imachine.MachineDTO machineDTO, System.AsyncCallback callback, object asyncState);
+        System.IAsyncResult BeginAdd(AsyncClient.ServiceReference1.MachineDTO machineDTO, System.AsyncCallback callback, object asyncState);
         
         void EndAdd(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IMachine/GetMachineName", ReplyAction="http://tempuri.org/IMachine/GetMachineNameResponse")]
-        string GetMachineName(Client.Imachine.MachineDTO machineDTO);
+        string GetMachineName(AsyncClient.ServiceReference1.MachineDTO machineDTO);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IMachine/GetMachineName", ReplyAction="http://tempuri.org/IMachine/GetMachineNameResponse")]
-        System.IAsyncResult BeginGetMachineName(Client.Imachine.MachineDTO machineDTO, System.AsyncCallback callback, object asyncState);
+        System.IAsyncResult BeginGetMachineName(AsyncClient.ServiceReference1.MachineDTO machineDTO, System.AsyncCallback callback, object asyncState);
         
         string EndGetMachineName(System.IAsyncResult result);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface IMachineChannel : Client.Imachine.IMachine, System.ServiceModel.IClientChannel {
+    public interface IMachineChannel : AsyncClient.ServiceReference1.IMachine, System.ServiceModel.IClientChannel {
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -120,7 +120,7 @@ namespace Client.Imachine {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class MachineClient : System.ServiceModel.ClientBase<Client.Imachine.IMachine>, Client.Imachine.IMachine {
+    public partial class MachineClient : System.ServiceModel.ClientBase<AsyncClient.ServiceReference1.IMachine>, AsyncClient.ServiceReference1.IMachine {
         
         private BeginOperationDelegate onBeginAddDelegate;
         
@@ -157,12 +157,12 @@ namespace Client.Imachine {
         
         public event System.EventHandler<GetMachineNameCompletedEventArgs> GetMachineNameCompleted;
         
-        public void Add(Client.Imachine.MachineDTO machineDTO) {
+        public void Add(AsyncClient.ServiceReference1.MachineDTO machineDTO) {
             base.Channel.Add(machineDTO);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        public System.IAsyncResult BeginAdd(Client.Imachine.MachineDTO machineDTO, System.AsyncCallback callback, object asyncState) {
+        public System.IAsyncResult BeginAdd(AsyncClient.ServiceReference1.MachineDTO machineDTO, System.AsyncCallback callback, object asyncState) {
             return base.Channel.BeginAdd(machineDTO, callback, asyncState);
         }
         
@@ -172,7 +172,7 @@ namespace Client.Imachine {
         }
         
         private System.IAsyncResult OnBeginAdd(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            Client.Imachine.MachineDTO machineDTO = ((Client.Imachine.MachineDTO)(inValues[0]));
+            AsyncClient.ServiceReference1.MachineDTO machineDTO = ((AsyncClient.ServiceReference1.MachineDTO)(inValues[0]));
             return this.BeginAdd(machineDTO, callback, asyncState);
         }
         
@@ -188,11 +188,11 @@ namespace Client.Imachine {
             }
         }
         
-        public void AddAsync(Client.Imachine.MachineDTO machineDTO) {
+        public void AddAsync(AsyncClient.ServiceReference1.MachineDTO machineDTO) {
             this.AddAsync(machineDTO, null);
         }
         
-        public void AddAsync(Client.Imachine.MachineDTO machineDTO, object userState) {
+        public void AddAsync(AsyncClient.ServiceReference1.MachineDTO machineDTO, object userState) {
             if ((this.onBeginAddDelegate == null)) {
                 this.onBeginAddDelegate = new BeginOperationDelegate(this.OnBeginAdd);
             }
@@ -206,12 +206,12 @@ namespace Client.Imachine {
                         machineDTO}, this.onEndAddDelegate, this.onAddCompletedDelegate, userState);
         }
         
-        public string GetMachineName(Client.Imachine.MachineDTO machineDTO) {
+        public string GetMachineName(AsyncClient.ServiceReference1.MachineDTO machineDTO) {
             return base.Channel.GetMachineName(machineDTO);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        public System.IAsyncResult BeginGetMachineName(Client.Imachine.MachineDTO machineDTO, System.AsyncCallback callback, object asyncState) {
+        public System.IAsyncResult BeginGetMachineName(AsyncClient.ServiceReference1.MachineDTO machineDTO, System.AsyncCallback callback, object asyncState) {
             return base.Channel.BeginGetMachineName(machineDTO, callback, asyncState);
         }
         
@@ -221,7 +221,7 @@ namespace Client.Imachine {
         }
         
         private System.IAsyncResult OnBeginGetMachineName(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            Client.Imachine.MachineDTO machineDTO = ((Client.Imachine.MachineDTO)(inValues[0]));
+            AsyncClient.ServiceReference1.MachineDTO machineDTO = ((AsyncClient.ServiceReference1.MachineDTO)(inValues[0]));
             return this.BeginGetMachineName(machineDTO, callback, asyncState);
         }
         
@@ -238,11 +238,11 @@ namespace Client.Imachine {
             }
         }
         
-        public void GetMachineNameAsync(Client.Imachine.MachineDTO machineDTO) {
+        public void GetMachineNameAsync(AsyncClient.ServiceReference1.MachineDTO machineDTO) {
             this.GetMachineNameAsync(machineDTO, null);
         }
         
-        public void GetMachineNameAsync(Client.Imachine.MachineDTO machineDTO, object userState) {
+        public void GetMachineNameAsync(AsyncClient.ServiceReference1.MachineDTO machineDTO, object userState) {
             if ((this.onBeginGetMachineNameDelegate == null)) {
                 this.onBeginGetMachineNameDelegate = new BeginOperationDelegate(this.OnBeginGetMachineName);
             }

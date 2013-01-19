@@ -30,6 +30,9 @@ namespace Client
                 channel.Abort();
                 Console.WriteLine(communicationException.Message);
             }
-        }
+
+         }
+
+      
     }
 }
