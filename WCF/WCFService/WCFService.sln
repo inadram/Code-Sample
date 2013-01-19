@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFService", "WCFService\WC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{C38D1E57-5C12-4C58-A62F-096DEB7F4442}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{363F187E-2BB7-49A5-83CE-FC6F2ADA62A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{C38D1E57-5C12-4C58-A62F-096DEB7F4442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C38D1E57-5C12-4C58-A62F-096DEB7F4442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C38D1E57-5C12-4C58-A62F-096DEB7F4442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{363F187E-2BB7-49A5-83CE-FC6F2ADA62A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{363F187E-2BB7-49A5-83CE-FC6F2ADA62A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{363F187E-2BB7-49A5-83CE-FC6F2ADA62A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{363F187E-2BB7-49A5-83CE-FC6F2ADA62A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

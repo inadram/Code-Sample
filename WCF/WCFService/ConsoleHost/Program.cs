@@ -27,7 +27,8 @@ namespace ConsoleHost
                                             "http://localhost:8733/ServiceMachine/ws");
 
             serviceHost.AddServiceEndpoint(typeof(IMachine), new NetTcpBinding(), 
-                                "net.tcp://localhost:8731/ServiceMachine"); 
+                                "net.tcp://localhost:8731/ServiceMachine");
+ 
             try
             {
                 serviceHost.Open();
