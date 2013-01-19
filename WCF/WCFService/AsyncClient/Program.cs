@@ -7,7 +7,7 @@ namespace AsyncClient
     {
         static void Main(string[] args)
         {
-            var channel = new MachineClient("BasicHttpBinding_IMachine");
+            var channel = new MachineClient("basic");
             channel.GetMachineNameCompleted+=ChannelOnGetMachineNameCompleted;
             channel.GetMachineNameAsync(new MachineDTO {MachineID = "1",MachineName = "async machine"});
             Console.WriteLine("some other operation is going on ...");

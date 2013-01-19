@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncClient", "AsyncClient\AsyncClient.csproj", "{27FB150F-C57D-4826-9A0E-A52ED328AEA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientMax", "ClientMax\ClientMax.csproj", "{923EDEB8-59BA-49D9-A3AD-CB0553EA0F73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{27FB150F-C57D-4826-9A0E-A52ED328AEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27FB150F-C57D-4826-9A0E-A52ED328AEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27FB150F-C57D-4826-9A0E-A52ED328AEA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923EDEB8-59BA-49D9-A3AD-CB0553EA0F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923EDEB8-59BA-49D9-A3AD-CB0553EA0F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923EDEB8-59BA-49D9-A3AD-CB0553EA0F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923EDEB8-59BA-49D9-A3AD-CB0553EA0F73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

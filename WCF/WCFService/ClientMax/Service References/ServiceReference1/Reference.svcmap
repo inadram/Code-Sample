@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a28fed1d-04e1-4ad1-abb8-06be6949b8bc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/ServiceMachine/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="4f0af371-c304-46b5-8ab5-128c98a27d3d" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="a57429a5-275f-45c7-a71d-55371a46adb9" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="a345982b-8ed0-4f6d-bdcc-4a2fe5e26420" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/mex" />
+    <MetadataFile FileName="WCFService.xsd" MetadataType="Schema" ID="e3fe0427-c773-4078-adc0-eb37325efe02" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

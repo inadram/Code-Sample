@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="6c83b5f5-810f-403f-bf8c-0aa0dab7022e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="60f69d4a-9c27-4d1b-9646-91cf26ded834" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
-    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <EnableDataBinding>true</EnableDataBinding>
     <ExcludedTypes />
     <ImportXmlTypes>false</ImportXmlTypes>
@@ -21,10 +21,10 @@
     <MetadataSource Address="http://localhost:8080/ServiceMachine/meta" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="meta.xsd" MetadataType="Schema" ID="0a31defd-cd68-4ab3-b53d-561b16b77f75" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/meta?xsd=xsd0" />
-    <MetadataFile FileName="meta1.xsd" MetadataType="Schema" ID="222b621c-9622-4273-b69a-cde6927f232c" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/meta?xsd=xsd1" />
-    <MetadataFile FileName="meta2.xsd" MetadataType="Schema" ID="9ea9eba0-fb71-4f7b-86cb-f1ae696d1e50" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/meta?xsd=xsd2" />
-    <MetadataFile FileName="Machine.wsdl" MetadataType="Wsdl" ID="7225f0a1-93c5-4ae0-b272-e174c62b6c2d" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/meta" />
+    <MetadataFile FileName="meta.xsd" MetadataType="Schema" ID="5d970d1d-91c7-41e9-a31c-6a4e1ae41d50" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/meta?xsd=xsd0" />
+    <MetadataFile FileName="meta1.xsd" MetadataType="Schema" ID="2855d0cb-4f98-48ad-809d-dcaa649e3d21" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/meta?xsd=xsd1" />
+    <MetadataFile FileName="meta2.xsd" MetadataType="Schema" ID="e238f93e-46b2-411e-8466-c550f80e2c74" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/meta?xsd=xsd2" />
+    <MetadataFile FileName="Machine.wsdl" MetadataType="Wsdl" ID="636107db-c460-47cc-97ad-da15899bdf2c" SourceId="1" SourceUrl="http://localhost:8080/ServiceMachine/meta" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ServiceModel;
 using System.ServiceModel.Channels;
-using Client.Imachine;
+using Client.ServiceReference1;
 
 namespace Client
 {
@@ -12,7 +12,7 @@ namespace Client
            //  IChannelFactory<IMachineChannel> factory = new ChannelFactory<IMachineChannel>(new BasicHttpBinding());
             // IMachineChannel channel = factory.CreateChannel(new EndpointAddress("http://localhost:8733/ServiceMachine/basic"));
 
-            var channel = new MachineClient("BasicHttpBinding_IMachine");
+            var channel = new MachineClient("basic");
             try
             {
                string machineName = channel.GetMachineName(new MachineDTO {MachineID = "1", MachineName = "test"});

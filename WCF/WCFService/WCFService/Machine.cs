@@ -15,5 +15,11 @@ namespace WCFService
         {
             return string.Format("the machine name is {0}",machineDTO.MachineName);
         }
+
+        public string GetMachineId(MachineDTO machineDTO)
+        {
+            return string.Format("the machine name is {0}", machineDTO.MachineID);
+        }
+
     }
 }

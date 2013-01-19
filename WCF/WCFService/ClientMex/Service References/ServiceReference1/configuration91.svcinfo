@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="TnDfUYg/Virscclwfo02kqlRWRk=">
+<SavedWcfConfigurationInformation xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="9.1" CheckSum="ljhaCo7AwjL2ehYInzItvV59CJY=">
   <bindingConfigurations>
     <bindingConfiguration bindingType="basicHttpBinding" name="BasicHttpBinding_IMachine">
       <properties>
@@ -351,7 +351,7 @@
     </bindingConfiguration>
   </bindingConfigurations>
   <endpoints>
-    <endpoint name="BasicHttpBinding_IMachine" contract="Imachine.IMachine" bindingType="basicHttpBinding" address="http://localhost:8733/ServiceMachine/basic" bindingConfiguration="BasicHttpBinding_IMachine">
+    <endpoint name="BasicHttpBinding_IMachine" contract="ServiceReference1.IMachine" bindingType="basicHttpBinding" address="http://localhost:8733/ServiceMachine/basic" bindingConfiguration="BasicHttpBinding_IMachine">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://localhost:8733/ServiceMachine/basic</serializedValue>
@@ -366,7 +366,7 @@
           <serializedValue>BasicHttpBinding_IMachine</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>Imachine.IMachine</serializedValue>
+          <serializedValue>ServiceReference1.IMachine</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -436,7 +436,7 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="WSHttpBinding_IMachine" contract="Imachine.IMachine" bindingType="wsHttpBinding" address="http://localhost:8733/ServiceMachine/ws" bindingConfiguration="WSHttpBinding_IMachine">
+    <endpoint name="WSHttpBinding_IMachine" contract="ServiceReference1.IMachine" bindingType="wsHttpBinding" address="http://localhost:8733/ServiceMachine/ws" bindingConfiguration="WSHttpBinding_IMachine">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>http://localhost:8733/ServiceMachine/ws</serializedValue>
@@ -451,7 +451,7 @@
           <serializedValue>WSHttpBinding_IMachine</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>Imachine.IMachine</serializedValue>
+          <serializedValue>ServiceReference1.IMachine</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
@@ -521,10 +521,10 @@
         </property>
       </properties>
     </endpoint>
-    <endpoint name="NetTcpBinding_IMachine" contract="Imachine.IMachine" bindingType="netTcpBinding" address="net.tcp://localhost:8731/ServiceMachine" bindingConfiguration="NetTcpBinding_IMachine">
+    <endpoint name="NetTcpBinding_IMachine" contract="ServiceReference1.IMachine" bindingType="netTcpBinding" address="net.tcp://localhost:8732/ServiceMachine/" bindingConfiguration="NetTcpBinding_IMachine">
       <properties>
         <property path="/address" isComplexType="false" isExplicitlyDefined="true" clrType="System.Uri, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>net.tcp://localhost:8731/ServiceMachine</serializedValue>
+          <serializedValue>net.tcp://localhost:8732/ServiceMachine/</serializedValue>
         </property>
         <property path="/behaviorConfiguration" isComplexType="false" isExplicitlyDefined="false" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue />
@@ -536,7 +536,7 @@
           <serializedValue>NetTcpBinding_IMachine</serializedValue>
         </property>
         <property path="/contract" isComplexType="false" isExplicitlyDefined="true" clrType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-          <serializedValue>Imachine.IMachine</serializedValue>
+          <serializedValue>ServiceReference1.IMachine</serializedValue>
         </property>
         <property path="/headers" isComplexType="true" isExplicitlyDefined="false" clrType="System.ServiceModel.Configuration.AddressHeaderCollectionElement, System.ServiceModel, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <serializedValue>System.ServiceModel.Configuration.AddressHeaderCollectionElement</serializedValue>
