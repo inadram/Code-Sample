@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RESTWcf", "RESTWcf\RESTWcf.csproj", "{9B9C18A7-EA92-454B-A5FE-C004A411E9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostService", "HostService\HostService.csproj", "{C5E65737-AA0D-41E5-B247-7874C48F68B6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B9C18A7-EA92-454B-A5FE-C004A411E9B8} = {9B9C18A7-EA92-454B-A5FE-C004A411E9B8}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B9C18A7-EA92-454B-A5FE-C004A411E9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9C18A7-EA92-454B-A5FE-C004A411E9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9C18A7-EA92-454B-A5FE-C004A411E9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9C18A7-EA92-454B-A5FE-C004A411E9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E65737-AA0D-41E5-B247-7874C48F68B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E65737-AA0D-41E5-B247-7874C48F68B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E65737-AA0D-41E5-B247-7874C48F68B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E65737-AA0D-41E5-B247-7874C48F68B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
