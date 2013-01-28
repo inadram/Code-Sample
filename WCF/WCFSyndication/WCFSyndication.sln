@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFSyndication", "WCFSyndication\WCFSyndication.csproj", "{7F5370D8-101E-49C4-8581-43CEFADA5532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{2209C70E-361A-4E35-94D7-B4849177625D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{59A4010F-0324-4435-8937-1D7E646BB6D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F5370D8-101E-49C4-8581-43CEFADA5532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F5370D8-101E-49C4-8581-43CEFADA5532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F5370D8-101E-49C4-8581-43CEFADA5532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F5370D8-101E-49C4-8581-43CEFADA5532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2209C70E-361A-4E35-94D7-B4849177625D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2209C70E-361A-4E35-94D7-B4849177625D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2209C70E-361A-4E35-94D7-B4849177625D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2209C70E-361A-4E35-94D7-B4849177625D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A4010F-0324-4435-8937-1D7E646BB6D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A4010F-0324-4435-8937-1D7E646BB6D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A4010F-0324-4435-8937-1D7E646BB6D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A4010F-0324-4435-8937-1D7E646BB6D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
