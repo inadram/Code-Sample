@@ -1,0 +1,6 @@
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\IoC.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\IoC.pdb
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\nunit.framework.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\obj\Debug\IoC.csprojResolveAssemblyReference.cache
+D:\Code\Code-Sample\IoC\IoC\IoC\obj\Debug\IoC.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\obj\Debug\IoC.pdb
