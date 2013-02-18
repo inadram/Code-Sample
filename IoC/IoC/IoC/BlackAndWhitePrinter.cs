@@ -4,8 +4,10 @@ namespace IoC
     {
         public string Printing()
         {
-            return "it is Black and white printing";
+            NumberOfPrints++;
+            return string.Format("it is Black and white printing {0}",NumberOfPrints);
 
         }
+        public int NumberOfPrints { get; set; }
     }
 }

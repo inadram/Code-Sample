@@ -4,3 +4,13 @@ D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\nunit.framework.dll
 D:\Code\Code-Sample\IoC\IoC\IoC\obj\Debug\IoC.csprojResolveAssemblyReference.cache
 D:\Code\Code-Sample\IoC\IoC\IoC\obj\Debug\IoC.dll
 D:\Code\Code-Sample\IoC\IoC\IoC\obj\Debug\IoC.pdb
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\System.Web.Mvc.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Unity.Mvc3.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\System.Web.Mvc.xml

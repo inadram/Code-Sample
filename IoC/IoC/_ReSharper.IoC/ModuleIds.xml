@@ -9,4 +9,20 @@
   <Module PersistentId="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml" />
   <Module PersistentId="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib" />
   <Module PersistentId="nunit.framework, Version=2.5.2.9222, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77" ModuleId="nunit.framework" />
+  <Module PersistentId="IoC, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="IoC_1" />
+  <Module PersistentId="System.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Security" />
+  <Module PersistentId="System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Numerics" />
+  <Module PersistentId="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="mscorlib_1" />
+  <Module PersistentId="System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System_1" />
+  <Module PersistentId="System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Xml_1" />
+  <Module PersistentId="System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Configuration" />
+  <Module PersistentId="System.Data.SqlXml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.SqlXml" />
+  <Module PersistentId="System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Configuration_1" />
+  <Module PersistentId="System.Data.SqlXml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" ModuleId="System.Data.SqlXml_1" />
+  <Module PersistentId="System.Security, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" ModuleId="System.Security_1" />
+  <Module PersistentId="Microsoft.Practices.ServiceLocation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="Microsoft.Practices.ServiceLocation" />
+  <Module PersistentId="Microsoft.Practices.Unity.Configuration, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="Microsoft.Practices.Unity.Configuration" />
+  <Module PersistentId="Microsoft.Practices.Unity, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="Microsoft.Practices.Unity" />
+  <Module PersistentId="Unity.Mvc3, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Unity.Mvc3" />
+  <Module PersistentId="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Mvc" />
 </Modules>

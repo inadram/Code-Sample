@@ -11,7 +11,7 @@
 
         public string print()
         {
-           return _typeOfPrinter.Printing();
+          return _typeOfPrinter.Printing();
         }
     }
 }

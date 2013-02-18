@@ -4,8 +4,11 @@ namespace IoC
     {
         public string Printing()
         {
-            return "it is colorfull printing";
+            NumberOfPrints++;
+            return string.Format("it is colorfull printing {0}",NumberOfPrints);
 
         }
+
+        public int NumberOfPrints { get; set; }
     }
 }
