@@ -14,3 +14,6 @@ D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.ServiceLocation.xm
 D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.Unity.xml
 D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\System.Web.Mvc.xml
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\StructureMap.dll
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\StructureMap.pdb
+D:\Code\Code-Sample\IoC\IoC\IoC\bin\Debug\StructureMap.xml

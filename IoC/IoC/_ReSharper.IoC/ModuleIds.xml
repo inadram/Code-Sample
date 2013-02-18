@@ -25,4 +25,5 @@
   <Module PersistentId="Microsoft.Practices.Unity, Version=2.1.505.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="Microsoft.Practices.Unity" />
   <Module PersistentId="Unity.Mvc3, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Unity.Mvc3" />
   <Module PersistentId="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" ModuleId="System.Web.Mvc" />
+  <Module PersistentId="StructureMap, Version=2.6.4.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223" ModuleId="StructureMap" />
 </Modules>

@@ -42,6 +42,9 @@
     <Reference Include="nunit.framework">
       <HintPath>..\..\..\..\Design-Pattern\VisitorPattern\Package\nunit.framework.dll</HintPath>
     </Reference>
+    <Reference Include="StructureMap">
+      <HintPath>..\packages\structuremap.2.6.4.1\lib\net40\StructureMap.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -67,6 +70,7 @@
     <Compile Include="Resolver.cs" />
     <Compile Include="TestPrint.cs" />
     <Compile Include="TestPrintWithUnity.cs" />
+    <Compile Include="TestStructuremap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
