@@ -1,0 +1,86 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="3313" fromTop="21" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="0" fromTop="0" />
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="3636" fromTop="28" />
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="3636" fromTop="13" />
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="1610" fromTop="38" />
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="3219" fromTop="47" />
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="780" fromTop="21" />
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="3624" fromTop="47" />
+      <File id="A0C3200B-9D6C-4DBA-BA9E-F04392F4EA99/f:cSharpTypes.cs" caret="3271" fromTop="39" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="7" />
+      <Item value="void" priority="3" />
+      <Item value="int" priority="5" />
+      <Item value="decimal" priority="1" />
+      <Item value="double" priority="1" />
+      <Item value="string" priority="3" />
+      <Item value="prop" priority="0" />
+      <Item value="class" priority="0" />
+      <Item value="dto" priority="1" />
+      <Item value="cSharpTypes" priority="6" />
+      <Item value="new" priority="2" />
+      <Item value="someDto`0" priority="0" />
+      <Item value="someDto" priority="3" />
+      <Item value="Assert`0" priority="1" />
+      <Item value="myDto" priority="0" />
+      <Item value="Is`0" priority="1" />
+      <Item value="myDecimalNumber" priority="0" />
+      <Item value="myDoubleNumber" priority="0" />
+      <Item value="myNumber" priority="0" />
+      <Item value="myPropertystring" priority="0" />
+      <Item value="myPropertyNumber" priority="0" />
+      <Item value="myStringValue" priority="0" />
+      <Item value="myIntegerValue" priority="1" />
+      <Item value="integerValue" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:cSharpTypes.someDto">
+      <Item value="Number" priority="3" />
+      <Item value="DecimalNumber" priority="2" />
+      <Item value="DoubleNumber" priority="2" />
+      <Item value="StringValue" priority="2" />
+      <Item value="PropertyNumber" priority="2" />
+      <Item value="PropertyString" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:cSharpTypes.cSharpTypes">
+      <Item value="ChangeValue`0" priority="0" />
+      <Item value="ChangeValueOfInteger`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Assert">
+      <Item value="That`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@NUnit.Framework.Is">
+      <Item value="Not" priority="0" />
+      <Item value="EqualTo`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NUnit.Framework.Constraints.ConstraintExpression">
+      <Item value="Empty" priority="0" />
+      <Item value="EqualTo`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

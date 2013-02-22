@@ -1,0 +1,6 @@
+C:\GitHub\Code-Sample\C#\cSharpTypes\cSharpTypes\bin\Debug\cSharpTypes.dll
+C:\GitHub\Code-Sample\C#\cSharpTypes\cSharpTypes\bin\Debug\cSharpTypes.pdb
+C:\GitHub\Code-Sample\C#\cSharpTypes\cSharpTypes\bin\Debug\nunit.framework.dll
+C:\GitHub\Code-Sample\C#\cSharpTypes\cSharpTypes\obj\Debug\ResolveAssemblyReference.cache
+C:\GitHub\Code-Sample\C#\cSharpTypes\cSharpTypes\obj\Debug\cSharpTypes.dll
+C:\GitHub\Code-Sample\C#\cSharpTypes\cSharpTypes\obj\Debug\cSharpTypes.pdb
