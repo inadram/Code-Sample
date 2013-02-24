@@ -1,0 +1,9 @@
+D:\Code\Code-Sample\IoC\delegates\delegates\bin\Debug\delegates.dll
+D:\Code\Code-Sample\IoC\delegates\delegates\bin\Debug\delegates.pdb
+D:\Code\Code-Sample\IoC\delegates\delegates\obj\Debug\delegates.csprojResolveAssemblyReference.cache
+D:\Code\Code-Sample\IoC\delegates\delegates\obj\Debug\delegates.dll
+D:\Code\Code-Sample\IoC\delegates\delegates\obj\Debug\delegates.pdb
+D:\Code\Code-Sample\IoC\delegates\delegates\bin\Debug\nunit.framework.dll
+D:\Code\Code-Sample\IoC\delegates\delegates\bin\Debug\nunit.framework.xml
+D:\Code\Code-Sample\IoC\delegates\delegates\bin\Debug\Rhino.Mocks.dll
+D:\Code\Code-Sample\IoC\delegates\delegates\bin\Debug\Rhino.Mocks.xml
