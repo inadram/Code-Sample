@@ -5,10 +5,10 @@
         private readonly ICommunication _communication;
         private readonly Sender _sender;
 
-        public DelegateMethod( ICommunication communication)
+        public DelegateMethod( Communication communication)
         {
             _communication = communication;
-            _sender += _communication.SendMessageWithEmail;
+            _sender = _communication.SendMessageWithEmail;
             _sender += _communication.SendMessageWithSms;
         }
         public void InvokeCommunication(string message)

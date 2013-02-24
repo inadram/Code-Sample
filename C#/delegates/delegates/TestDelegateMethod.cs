@@ -11,12 +11,10 @@ namespace delegates
         [Test]
         public void Given_Message_When_InvokeDelegate_Then_ShouldCalledSmsAndEmail()
         {
-            var communicationMock = MockRepository.GenerateMock<ICommunication>();
-            var delegateMethod = new DelegateMethod(communicationMock);
+            //the Assert part of this test will be completed in tell dont ask topic
+            var delegateMethod = new DelegateMethod(new Communication());
             _message = "Test Message";
             delegateMethod.InvokeCommunication(_message);
-            communicationMock.AssertWasCalled(x => x.SendMessageWithEmail(_message));
-            communicationMock.AssertWasCalled(x => x.SendMessageWithSms(_message));
 
         }
     }
