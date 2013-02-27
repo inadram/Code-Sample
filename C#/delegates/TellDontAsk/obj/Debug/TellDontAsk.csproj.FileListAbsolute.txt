@@ -1,0 +1,7 @@
+D:\Code\Code-Sample\C#\delegates\TellDontAsk\bin\Debug\TellDontAsk.dll
+D:\Code\Code-Sample\C#\delegates\TellDontAsk\bin\Debug\TellDontAsk.pdb
+D:\Code\Code-Sample\C#\delegates\TellDontAsk\bin\Debug\nunit.framework.dll
+D:\Code\Code-Sample\C#\delegates\TellDontAsk\bin\Debug\nunit.framework.xml
+D:\Code\Code-Sample\C#\delegates\TellDontAsk\obj\Debug\TellDontAsk.csprojResolveAssemblyReference.cache
+D:\Code\Code-Sample\C#\delegates\TellDontAsk\obj\Debug\TellDontAsk.dll
+D:\Code\Code-Sample\C#\delegates\TellDontAsk\obj\Debug\TellDontAsk.pdb
