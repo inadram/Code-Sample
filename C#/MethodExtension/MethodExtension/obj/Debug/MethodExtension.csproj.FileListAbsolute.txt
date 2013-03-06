@@ -1,0 +1,7 @@
+D:\Code\Code-Sample\C#\MethodExtension\MethodExtension\bin\Debug\MethodExtension.dll
+D:\Code\Code-Sample\C#\MethodExtension\MethodExtension\bin\Debug\MethodExtension.pdb
+D:\Code\Code-Sample\C#\MethodExtension\MethodExtension\obj\Debug\MethodExtension.csprojResolveAssemblyReference.cache
+D:\Code\Code-Sample\C#\MethodExtension\MethodExtension\obj\Debug\MethodExtension.dll
+D:\Code\Code-Sample\C#\MethodExtension\MethodExtension\obj\Debug\MethodExtension.pdb
+D:\Code\Code-Sample\C#\MethodExtension\MethodExtension\bin\Debug\nunit.framework.dll
+D:\Code\Code-Sample\C#\MethodExtension\MethodExtension\bin\Debug\nunit.framework.xml
