@@ -1,0 +1,6 @@
+C:\Laterooms\Code\HigherFunctions\HigherFunctions\bin\Debug\HigherFunctions.dll
+C:\Laterooms\Code\HigherFunctions\HigherFunctions\bin\Debug\HigherFunctions.pdb
+C:\Laterooms\Code\HigherFunctions\HigherFunctions\bin\Debug\nunit.framework.dll
+C:\Laterooms\Code\HigherFunctions\HigherFunctions\obj\Debug\ResolveAssemblyReference.cache
+C:\Laterooms\Code\HigherFunctions\HigherFunctions\obj\Debug\HigherFunctions.dll
+C:\Laterooms\Code\HigherFunctions\HigherFunctions\obj\Debug\HigherFunctions.pdb
