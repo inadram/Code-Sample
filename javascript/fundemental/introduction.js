@@ -166,22 +166,6 @@ var amir =
     }
 })();
 
-//string functionality
-var name = "amir";
-alert("charAt(0): " + name.charAt(0));
-
-alert("indexOf('m'):" + name.indexOf('m'));
-
-name = name.replace("a", "m");
-alert("replace('a','m'): " + name.charAt(0));
-
-alert("slice(0,3) :" + name.slice(0, 3));
-
-alert("search(/m/) : " + name.search(/m/));
-alert("split('m') :" + name.split('m'));
-
-alert("toUpperCase :" + name.toUpperCase());
-
 //array can store anything
 var collection = [1, "test", 3, 11];
 alert("integer value  in collection :" + collection[0]);
@@ -202,91 +186,8 @@ collection.sort(function (first, second) { return first - second; });
 alert("sort numerical collection[0] :" + collection[0]);
 alert("sort numerical collection[1] :" + collection[1]);
 
-//underscore.js
-var numbers = [1, 3, 4];
-//functional style
-_.each(numbers, function (num) {
-    alert('functional :' + num);
-});
-
-//object oriental style
-_(numbers).each(function (num) {
-    alert('oo :' + num);
-});
-
-var doubled = _(numbers).map(function (num) {
-    return num * 2;
-});
-
-_(doubled).each(function (num) { alert('mapped to double : ' + num); });
-
-var reduced = _(doubled).reduce(function (single, num) { return single += num; }, 0);
-alert("reduced to single value : " + reduced);
-
-var filter = _(numbers).select(function (num) { return num % 2 === 0; });
-alert("filter even numbers by select :" + filter[0]);
-
-var AreAllItemsNumber = _(numbers).all(function (item) { return typeof item === "number"; });
-alert("Are all the items in number type : " + AreAllItemsNumber);
-
-var isIncludeItem = _(numbers).include(3);
-alert("is include item :" + isIncludeItem);
-
-var maxValue = _(numbers).max();
-alert(maxValue);
-
-//regular expressions
-var someText = "this is some <italic> important </italic> html text with some numbers such as 1, 3 and 6";
-var expression = /<italic> (.*) <\/italic>/;
-var result = expression.exec(someText);
-alert("matched string : " + result[0]);
-alert("capture string: " + result[1]);
-
-var numberExpression = /\d/;
-var isContainNuber = numberExpression.test(someText);
-alert("is the string contain number : " + isContainNuber);
-
-var spaceBetweenTwoWords = /(\w+) (\w+)/g;
-var updatedString = someText.replace(spaceBetweenTwoWords, function (match, group1, group2) {
-    return group1.toUpperCase();
-});
-
-alert("replace each word with uppercase :" + updatedString);
-
 //date 1 month diffrent as it start from 0 11 => december
 var mydate = new Date(2010, 11, 21);
 alert(mydate);
 alert(mydate.toUTCString());
 //do not use eval
-
-//isNaN
-alert("is string not a number ? :" + isNaN("test"));
-
-alert("is number not a number ? :" + isNaN(1));
-
-//parseFloat
-alert("convert 41 to number :" + parseFloat("41"));
-
-alert("convert 0.0654E+2 to nuber :" + parseFloat("0.0654E+2"));
-
-//math
-function circle(diameter) {
-    return diameter * Math.PI;
-}
-
-alert(circle(2).toFixed(2));
-alert("abs -4 :" + Math.abs(-4));
-
-alert("floor 1.2 :" + Math.floor(1.2));
-alert("floor -1.2 :" + Math.floor(-1.2));
-
-alert("ceil 1.2 :" + Math.ceil(1.2));
-alert("ceil -1.2 :" + Math.ceil(-1.2));
-
-alert("pow (3,2) :" + Math.pow(3, 2));
-
-alert("random () :" + Math.random());
-
-alert("round (2.4) :" + Math.round(2.4));
-alert("round (2.5) :" + Math.round(2.5));
-alert("round (-2.4) :" + Math.round(-2.4));
