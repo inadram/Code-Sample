@@ -91,7 +91,6 @@ SinonSpyTest.prototype.testCallMyMethodShouldCallMyMethodFourTimesAlwaysWithExac
 	assertFalse(myMethodSpy.alwaysCalledWith(arg1, arg2));
 	assertFalse(myMethodSpy.alwaysCalledWithExactly(arg1));
 	assertFalse(myMethodSpy.alwaysCalledWithExactly(arg1, arg2));
-
 };
 
 SinonSpyTest.prototype.testMyMethodCalledWithExpectedElementsOnSecondCall = function () {
