@@ -50,3 +50,21 @@ SinonMockTest.prototype.testThatMyMethodGetNeverCalled = function () {
 	sinonMock.callMyMethod(0);
 	theSinonMock.verify();
 };
+
+SinonMockTest.prototype.testThatMyMethodGetCalledWithArgs = function () {
+	var theSinonMock = this._sandbox.mock(sinonMock);
+	var firstArgument = 'first argument';
+	var secondArgument = 'second argument';
+	theSinonMock.expects("myMethod").withArgs(firstArgument);
+	sinonMock.callMyMethod(1,firstArgument,secondArgument);
+	theSinonMock.verify();
+};
+
+SinonMockTest.prototype.testThatMyMethodGetCalledWithExactArgs = function () {
+	var theSinonMock = this._sandbox.mock(sinonMock);
+	var firstArgument = 'first argument';
+	var secondArgument = 'second argument';
+	theSinonMock.expects("myMethod").withExactArgs(firstArgument, secondArgument);
+	sinonMock.callMyMethod(1,firstArgument,secondArgument);
+	theSinonMock.verify();
+};
