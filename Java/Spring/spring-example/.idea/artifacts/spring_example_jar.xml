@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="spring-example:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_example_jar</output-path>
+    <root id="archive" name="spring-example.jar">
+      <element id="module-output" name="spring-example" />
+    </root>
+  </artifact>
+</component>
