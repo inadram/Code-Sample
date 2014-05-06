@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spring">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/com/inadram/lib/commons-logging-1.1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/inadram/lib/spring-beans-4.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/inadram/lib/spring-context-4.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/inadram/lib/spring-core-4.0.4.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/com/inadram/lib/spring-expression-4.0.4.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
