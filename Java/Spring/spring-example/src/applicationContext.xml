@@ -5,7 +5,12 @@
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
     <bean name="customerRepo" class="com.inadram.repo.hibernateRepositoryImplementation"/>
+    <!--<bean name="customerService" class="com.inadram.service.CustomerServiceImplementation">-->
+    <!--<property name="customerRepository" ref="customerRepo"/>-->
+    <!--</bean>-->
+
     <bean name="customerService" class="com.inadram.service.CustomerServiceImplementation">
-        <property name="customerRepository" ref="customerRepo"/>
+        <constructor-arg index="0" ref="customerRepo"/>
     </bean>
+
 </beans>
