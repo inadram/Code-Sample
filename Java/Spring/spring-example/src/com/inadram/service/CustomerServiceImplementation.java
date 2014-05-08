@@ -9,13 +9,17 @@ import java.util.List;
 public class CustomerServiceImplementation implements CustomerService {
 	private CustomerRepository customerRepository;
 
-	public CustomerServiceImplementation(CustomerRepository customerRepository) {
-		this.customerRepository = customerRepository;
-	}
-
-//	public void setCustomerRepository(CustomerRepository customerRepository) {
+//	public CustomerServiceImplementation(CustomerRepository customerRepository) {
 //		this.customerRepository = customerRepository;
 //	}
+
+//	public CustomerServiceImplementation() {
+//	}
+
+	public void setCustomerRepo(CustomerRepository customerRepository) {
+		System.out.println("hi");
+		this.customerRepository = customerRepository;
+	}
 
 	@Override
 	public List<Customer> findAll() {
