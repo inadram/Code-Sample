@@ -1,5 +1,3 @@
-read more about this spring example on 
+read more about this spring annotation example on 
 
-http://blog.com.inadram.com/spring-example/
-
-http://blog.com.inadram.com/setter-injection-vs-constructor-injection-in-spring/
+http://blog.inadram.com/spring-annotation-using-xml-example/
