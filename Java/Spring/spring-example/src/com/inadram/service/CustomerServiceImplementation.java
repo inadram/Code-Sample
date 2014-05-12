@@ -2,7 +2,6 @@ package com.inadram.service;
 
 import com.inadram.customer.Customer;
 import com.inadram.repo.CustomerRepository;
-import com.inadram.repo.hibernateRepositoryImplementation;
 
 import java.util.List;
 
@@ -17,7 +16,6 @@ public class CustomerServiceImplementation implements CustomerService {
 //	}
 
 	public void setCustomerRepo(CustomerRepository customerRepository) {
-		System.out.println("hi");
 		this.customerRepository = customerRepository;
 	}
 
