@@ -1,8 +1,6 @@
+import com.inadram.service.CustomerService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import com.inadram.service.CustomerService;
-//import com.inadram.service.CustomerServiceImplementation;
 
 
 public class Application {

@@ -10,5 +10,6 @@
 	<context:annotation-config/>
 
 	<context:component-scan base-package="com.inadram"/>
+    <context:property-placeholder location="app.someProperties"/>
 
 </beans>
